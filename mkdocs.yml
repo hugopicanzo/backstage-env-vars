@@ -1,5 +1,6 @@
 site_name: Env Exfiltration
-copyright: !env_var GITHUB_TOKEN 
+copyright: !ENV GITHUB_TOKEN 
 plugins:
   - techdocs-core
+
 
